@@ -16,32 +16,47 @@ The goal is to identify hidden behavioral patterns in profitability, capital eff
 
 All analysis is implemented in Python using a Jupyter/Colab notebook with a fully reproducible workflow and no external database dependencies.
 ________________________________________
-📂 Folder Structure
-ds_Teerth_Purohit/
-│
-├── notebook_1.ipynb          # Main analysis notebook
-├── ds_report.pdf             # Full written strategy & behavioral report (6+ pages)
-├── README.md                 # Project description and instructions
-│
-├── csv_files/                # Input datasets & processed data
-│   ├── historical_data.csv           # Raw executed trades
-│   ├── fear_greed_index.csv          # Sentiment classifications
-│   ├── pnl_by_mood.csv               # Outputs from notebook
-│   ├── advanced_analysis_by_mood.csv
-│   ├── day_of_week_volume.csv
-│   ├── hourly_winrate.csv
-│   ├── side_performance.csv
-│   ├── top10_coin_pnl.csv
-│
-├── outputs/                  # Generated charts & visualizations
-│   ├── pnl_vs_mood.png
-│   ├── strategy_dashboard.png
-│   ├── time_analysis.png
-│   ├── psychology_check.png
-│   ├── correlation_heatmap.png
-│   ├── leverage_distribution.png
-│
-└── .gitattributes            # Git LFS configuration for PDF & image tracking
+📂 Project Contents
+
+notebook_1.ipynb — Main analysis notebook
+
+ds_report.pdf — Final written report
+
+README.md — Documentation
+
+Data Files (csv_files/):
+
+Raw trades (historical_data.csv)
+
+Sentiment index (fear_greed_index.csv)
+
+Processed outputs:
+
+pnl_by_mood.csv
+
+advanced_analysis_by_mood.csv
+
+day_of_week_volume.csv
+
+hourly_winrate.csv
+
+side_performance.csv
+
+top10_coin_pnl.csv
+
+Visual Outputs (outputs/):
+
+pnl_vs_mood.png
+
+strategy_dashboard.png
+
+time_analysis.png
+
+psychology_check.png
+
+correlation_heatmap.png
+
+leverage_distribution.png
 
 ________________________________________
 Setup Instructions
