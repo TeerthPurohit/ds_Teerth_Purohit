@@ -1,3 +1,4 @@
+Google colab link https://colab.research.google.com/drive/1XkAH1-G5KSma72Pp0hFqHEMlUobzvWST?usp=sharing
 README.md
 📊 Data Science Submission — Trader Behavioral Analysis
 Author: Teerth Purohit
